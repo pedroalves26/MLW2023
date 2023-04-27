@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+<form action="#" method="post">
+    <fieldset>
+        <legend>Dados de login</legend>
+        <div>
+            <label for="Nome">Nome:</label>
+            <input type="text" name="Nome" id="Nome" placeholder="Digite o seu nome" size="20" maxlength="10" required>
+        </div>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="Digite o seu email" size="20" maxlength="10" required readonly>
+        </div>
+        <div>
+            <form action="#" method="post"></form>
+            <label for="Senha">Senha</label>
+            <input type="password" name="Senha" id="Senha" placeholder="Digite a sua senha" size="20" maxlength="10">
+        </div>
+    </fieldset>
+    <div>
+    <fieldset>
+        <legend>Dados funcionais</legend>
+        <label>Profissão</label> <br>
+        <input type="radio" name="prof" id="Professor">
+        <label>Estudantes</label>
+        <input type="radio" name="prof" id="Estudantes">
+        <label>Estudantes</label>
+        <input type="radio" name="prof" id="Outros">
+        <label>Outros</label>
+    </fieldset>
+    </div>
+    <div>
+        <label>Qual tecnologia Domina:</label> <br>
+        <input type="checkbox" name="html" id="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="js" id="js">
+        <label for="JavaScript">JavaScript</label>
+        <input type="checkbox" name="css" id="css">
+        <label for="css">CSS</label>
+    </div>
+    <div>
+        <label for="recado">Deixe seu recado</label>
+        <textarea name="recado" id="recado" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+    <button type="submit">Enviar</button>
+    <button type="reset">Apagar</button>
+    </div>
+    <div>
+        <label>Qual sua escolaridade</label>
+        <select name="esc" id="esc">
+            <optgroup label="Opção 1">
+                <option value="1">Ensino Fundamental 1</option>
+                <option value="2">Ensino Fundamental 2</option>
+                <option value="3">Ensino Médio</option>
+            </optgroup> <optgroup label="Opção 2">
+                <option value="4">Ensino Superior</option>
+                <option value="5">Pós Graduação</option>
+                <option value="6" selected>Outros</option>
+            </optgroup>
+        </select>
+    </div>
+    <div>
+        <label>Escolha uma cor</label>
+        <input type="color" name="cor" id="cor"> <br>
+        <label>Escolha uma data</label>
+        <input type="date" name="data" id="data">
+        <label>Entre com um arquivo</label>
+        <input type="file" name="file" id="file">
+        <hr>
+        <label for="num">Encontre com um número</label>
+        <input type="number" name="numero" id="numero">
+    </div>
+</form>
+</body>
+</html>
