@@ -1,0 +1,15 @@
+.tamanho {
+    font-size: 50px;
+}
+#corroxa {
+background-color: purple;
+}
+.corazul, h2 {
+background-color: blue;
+color: white;
+}
+li a{
+    font-size: 20px;
+}
+
+div p strong a{font-size: 30px;}
