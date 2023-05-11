@@ -1,0 +1,22 @@
+.bgcolor {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50%;
+}
+
+.bgimage{
+    background-image: url(../img/download.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 200px;
+    background-size: cover;
+}
+
+/*.bgimage p{
+    background-color: darkmagenta;
+}*/
+
+body{
+    background-image: url(../img/download1.jpg);
+    background-attachment: fixed;
+}
